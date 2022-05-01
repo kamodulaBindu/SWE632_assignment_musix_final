@@ -1,0 +1,91 @@
+.mat-toolbar-row{
+    height: 90px !important;
+}
+.example-icon {
+    padding: 0 14px;
+    color: aliceblue;
+    position: relative;
+    float: right;
+}
+
+.home{
+    color: white !important;
+}
+.row{
+    padding-top: 40px;
+}
+
+.search{
+    color: aliceblue;
+    position: relative;
+    
+}
+.header{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+
+}
+.mat-option{
+    margin: 1px;
+    line-height: normal;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+
+.spacer1 {
+    flex: 0.06 0.06 auto;
+}
+
+#logo{
+    padding-top: 20px;
+    height: 90px;
+    align-content: center;
+}
+
+.headerbg{
+    position:fixed;
+    background-color:rgb(37, 38, 39);  
+    top: 0; 
+    z-index: 999;    
+}
+
+.material-icons{
+    margin-top: -30px;
+}
+
+#inputSearch::placeholder{
+    color: red;
+ }
+ .mat-toolbar .mat-form-field-label{
+     color: blue !important;
+ }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+  }
+
+  .inputSearch .mat-form-field-label-wrapper .mat-form-field-infix {
+    background-color: black;
+ }
+
+ .mat-form-field-label-wrapper {
+    position: absolute;
+    left: 0;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    color: black !important;
+}
+.home1{
+    font-size: 32px;
+}
+.mat-form-field{
+    margin-right: 30px;
+}
